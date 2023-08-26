@@ -1,11 +1,13 @@
 
 @use '../util' as u;
-html{
+
+html {
   box-sizing: border-box;
-  font-size: 100%;
+  font-size:  100%;
 }
 
-*, *::before, *::after{
+*, *::before, 
+*::after {
   box-sizing: inherit;
 }
 
@@ -17,4 +19,5 @@ body{
   color: var(--text-color);
   display: grid;
   justify-content: center;
+  
 }
